@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  color: rgb(82, 49, 71);
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  font-weight: bold;
+  font-size: 32px;
+  margin-right: 24px;
+  padding: 8px 16px;
+  color: rgb(214, 150, 150);
+}
+
+li:hover {
+  background-color: rgb(255, 255, 255);
+}
+#home {
+  display: flex;
+  justify-content: center;
+}
+
+.data-diri {
+  text-align: center;
+  margin-top: 8px;
+}
+
+img {
+  width: 300px;
+  margin-top: 35px;
+  margin-bottom: 40px;
+  border-radius: 1000px;
+}
+
+#beranda {
+  height: 100vh;
+  background-color: #f699ff;
+  background-image: radial-gradient(
+      at 73% 49%,
+      rgba(121, 251, 203, 0.233) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 51% 14%, hsla(283, 74%, 75%, 1) 0px, transparent 50%),
+    radial-gradient(at 87% 31%, hsla(265, 72%, 60%, 1) 0px, transparent 50%),
+    radial-gradient(at 4% 99%, hsla(214, 69%, 73%, 1) 0px, transparent 50%),
+    radial-gradient(at 32% 49%, rgba(130, 232, 164, 0.247) 0px, transparent 50%),
+    radial-gradient(at 26% 13%, rgba(225, 253, 134, 0.39) 0px, transparent 50%),
+    radial-gradient(at 15% 4%, rgba(244, 210, 148, 0.205) 0px, transparent 50%);
+
+}
+
+section {
+  height: 100vh;
+}
+
+#about {
+  background-color: #f699ff;
+  background-image: radial-gradient(
+      at 73% 49%,
+      rgba(121, 251, 203, 0.233) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 51% 14%, hsla(283, 74%, 75%, 1) 0px, transparent 50%),
+    radial-gradient(at 87% 31%, hsla(265, 72%, 60%, 1) 0px, transparent 50%),
+    radial-gradient(at 4% 99%, hsla(214, 69%, 73%, 1) 0px, transparent 50%),
+    radial-gradient(at 32% 49%, rgba(130, 232, 164, 0.247) 0px, transparent 50%),
+    radial-gradient(at 26% 13%, rgba(225, 253, 134, 0.39) 0px, transparent 50%),
+    radial-gradient(at 15% 4%, rgba(244, 210, 148, 0.205) 0px, transparent 50%);
+
+  text-align: center;
+}
+
+#about h1 {
+  padding-top: 10px;
+}
+
+.selengkapnya {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  padding: 12px 18px;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.main{
+ width: 1130px;
+ max-width: 95%;
+ margin: 0 auto;
+ display: flex;
+ align-items: center;
+ justify-content: space-around; 
+}
+
+.aboutText{
+  width: 550px;
+}
+
+#about img{
+  width: 450px;
+  border-radius: 26px;
+}
+
+.aboutText h1{
+  font-size: 50px;
+  padding-top: 40px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.aboutText h2 span{
+  color: rgb(148, 89, 89);
+}
+
+.aboutText p {
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: 15px;
+  margin-bottom: 18px;
+  text-align: justify;
+  color: white;
+}
+
+.button {
+  padding: 13px;
+  border-radius: 10px;
+  background-color: rgba(244, 210, 148, 0.205);
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.buttona {
+  text-decoration: none;
+  color: white;
+}
+
+.button:hover{
+  border: 5px saddlebrown;
+  background: transparent;
+
+}
+
+#contact{
+  background-color: #f699ff;
+  background-image: radial-gradient(
+      at 73% 49%,
+      rgba(121, 251, 203, 0.233) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 51% 14%, hsla(283, 74%, 75%, 1) 0px, transparent 50%),
+    radial-gradient(at 87% 31%, hsla(265, 72%, 60%, 1) 0px, transparent 50%),
+    radial-gradient(at 4% 99%, hsla(214, 69%, 73%, 1) 0px, transparent 50%),
+    radial-gradient(at 32% 49%, rgba(130, 232, 164, 0.247) 0px, transparent 50%),
+    radial-gradient(at 26% 13%, rgba(225, 253, 134, 0.39) 0px, transparent 50%),
+    radial-gradient(at 15% 4%, rgba(244, 210, 148, 0.205) 0px, transparent 50%);
+
+}
+:root{
+  --ruler: 16px;
+  --color-red: coral;
+  --color-bg: #ebecf0;
+  --color-shadow: #babecc;
+  --color-white: #fff;
+}
+input,textarea,button{
+  font-size: var(--ruler);
+}
+form
+{
+  padding: var(--ruler);
+  width: 400px;
+  margin: auto;
+}
+.segment h1{
+  font-size: 50px;
+  margin-top: 60px;
+  margin-bottom: 35px;
+  text-align: center;
+  color: white;
+}
+button,input,textarea{
+  border: 0;
+  font-size: var(--ruler);
+  border-radius: 21px;
+  padding: var(--ruler);
+  margin: 10px;
+  background-color: var(--color-bg);
+}
+input,textarea{
+  width: 100%;
+}
+button{
+  &:hover{
+    box-shadow: -2px -2px 5px var(--color-white),
+    2px 2px 5px var(--color-shadow--); 
+  }
+
+  &.red{
+    width: 100%;
+    color: rgb(214, 150, 150);
+  }
+  
+}
+ul a{
+  text-decoration: none;
+  color: black;
+}
